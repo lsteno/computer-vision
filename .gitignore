@@ -1,12 +1,8 @@
-# Ignore everything
 *
 
-# Allow Jupyter notebooks
-!*.ipynb
+!**/*.ipynb
 
-# Allow .gitignore itself (otherwise, it would be ignored)
 !.gitignore
 
-# Optional: Allow README and requirements files
 !README.md
 !requirements.txt
